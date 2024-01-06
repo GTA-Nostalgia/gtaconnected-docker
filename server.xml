@@ -4,18 +4,18 @@
 
 <server>
 	<!-- General Information -->
-	<servername>Default Server</servername>
-	<game>gta:iii</game>
+	<servername>[UK] [Public] GTA Nostalgia | Testing</servername>
+	<game>gta:iv</game>
 	<gamemode>Free Roam</gamemode>
 	<serverbrowser>true</serverbrowser>
-	<maxplayers>32</maxplayers>
+	<maxplayers>64</maxplayers>
 	<password></password>
 	<minclientversion>1.5.0</minclientversion>
 	<duplicatenames>false</duplicatenames>
 
 	<!-- Networking -->
-	<port>22000</port>
-	<httpport>22000</httpport>
+	<port>22999</port>
+	<httpport>22999</httpport>
 	<httpserver>true</httpserver>
 	<syncinterval>30</syncinterval>
 	<processinterval>30</processinterval>
@@ -23,6 +23,8 @@
 	<compresspackets>false</compresspackets>
 	<packetcompressionlevel>default</packetcompressionlevel>
 	<synclocalentities>true</synclocalentities>
+	<timesync>false</timesync>
+	<weathersync>false</weathersync>
 
 	<!-- Element Streaming -->
 	<streamindistance>200</streamindistance>
@@ -37,8 +39,8 @@
 	<!-- GTA IV -->
 	<!-- https://wiki.gtaconnected.com/Resources/GTAIV/GameModes -->
 	<!-- https://wiki.gtaconnected.com/Resources/GTAIV/Episodes -->
-	<iv_gamemode>8</iv_gamemode>
-	<iv_episode>-1</iv_episode>
+	<iv_gamemode>16</iv_gamemode>
+	<iv_episode>-0</iv_episode>
 
 	<!-- Modules -->
 	<!-- https://wiki.gtaconnected.com/Modules -->
@@ -67,15 +69,33 @@
 	<cvar name="iv_scenariopeds" value="1" />
 	<cvar name="iv_randomcops" value="1" />
 	<cvar name="iv_bulletspread" value="1" />
+	<cvar name="iv_skiplobby" value="1" />
+	<cvar name="iv_allowtrains" value="1" />
 
 	<!-- Rules -->
-	<!-- https://wiki.gtaconnected.com/ServerRules -->
-	<rule name="Owner" value="Nobody" />
-	<rule name="Website" value="https://gtaconnected.com" />
+	<!-- https://gtanostalgia.com/ServerRules -->
+	<rule name="Owner" value="GTA Nostalgia Team" />
+	<rule name="Website" value="https://gtanostalgia.com/" />
+	<rule name="Location" value="United Kingdom" />	
 
 	<!-- Resources -->
 	<!-- https://wiki.gtaconnected.com/Resources -->
 	<resources>
-		<resource src="freeroam" />
+		<resource src="v-admin" />
+		<resource src="v-afk" />
+		<resource src="v-chat" />
+		<resource src="v-deathmessages" />
+		<resource src="v-events" />
+		<resource src="v-help" />
+		<resource src="v-hudtoggle" />
+		<resource src="v-joinquit" />
+		<resource src="v-logo" />
+		<resource src="v-passenger" />
+		<resource src="v-playerblips" />
+		<resource src="v-playercolours" />
+		<resource src="v-scoreboard" />
+		<resource src="v-time" />
+		<resource src="v-weather" />
 	</resources>
 </server>
+
