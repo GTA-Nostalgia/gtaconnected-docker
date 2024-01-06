@@ -1,4 +1,4 @@
-FROM python
+FROM debian:bullseye-slim
 
 WORKDIR /
 
