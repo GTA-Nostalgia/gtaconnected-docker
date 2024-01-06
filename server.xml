@@ -4,7 +4,7 @@
 
 <server>
 	<!-- General Information -->
-	<servername>[UK] [Public] GTA Nostalgia | Testing</servername>
+	<servername>GTA Connected | Running on Docker 🐳</servername>
 	<game>gta:iv</game>
 	<gamemode>Free Roam</gamemode>
 	<serverbrowser>true</serverbrowser>
@@ -14,8 +14,8 @@
 	<duplicatenames>false</duplicatenames>
 
 	<!-- Networking -->
-	<port>22999</port>
-	<httpport>22999</httpport>
+	<port>22000</port>
+	<httpport>22000</httpport>
 	<httpserver>true</httpserver>
 	<syncinterval>30</syncinterval>
 	<processinterval>30</processinterval>
