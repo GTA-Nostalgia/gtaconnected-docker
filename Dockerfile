@@ -1,9 +1,9 @@
-FROM debian:stable-slim
+FROM debian:bullseye-slim
 
-WORKDIR /
+WORKDIR /data
 
 COPY . .
 
-RUN ["chmod" , "+x" , "Server"]
+RUN chmod +x Server
 
 ENTRYPOINT [ "./Server" ]
