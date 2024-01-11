@@ -74,9 +74,8 @@
 
 	<!-- Rules -->
 	<!-- https://gtanostalgia.com/ServerRules -->
-	<rule name="Owner" value="GTA Nostalgia Team" />
-	<rule name="Website" value="https://gtanostalgia.com/" />
-	<rule name="Location" value="United Kingdom" />	
+	<rule name="Owner" value="Your Name" />
+	<rule name="Website" value="https://gtaconnected.com/" />
 
 	<!-- Resources -->
 	<!-- https://wiki.gtaconnected.com/Resources -->
