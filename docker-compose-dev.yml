@@ -5,7 +5,7 @@ services:
 
   gtaconnected:
 
-    image: mrose5736/gtaconnected-docker:latest
+    image: gtaconnected
 
     container_name: gta-connected-server
 
